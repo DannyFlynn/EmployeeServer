@@ -6,7 +6,7 @@ const app =  express();
 require("dotenv").config();
 
 app.use(cors({
-    origin: process.env.CLIENTURL
+    origin: 'https://bejewelled-ganache-0c5654.netlify.app'
 }));
 app.use(express.json());
 
